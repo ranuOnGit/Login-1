@@ -1,0 +1,46 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 75vw;
+  justify-content: center;
+  margin: 10rem auto;
+  background-color: #e64a00;
+  border-bottom: 2x solid #e64a00;
+  box-shadow: 2px 3px 5px #8a2d00;
+  padding: 2rem;
+  letter-spacing: 0.2rem;
+  font-size: 1.5rem;
+}
+
+.login-form label {
+  text-transform: uppercase;
+  font-weight: bold;  
+  margin-top: 1rem;
+}
+
+.login-form input{
+  padding: .5rem;
+  border: 3px solid #ff8b53;
+  margin: .5rem;
+  letter-spacing: 0.2rem;
+}
+
+.login-form input::placeholder{
+  letter-spacing: 0.2rem;
+  text-transform: capitalize
+}
+
+.login-form button{
+  padding: .5rem;
+  text-transform: uppercase;
+  width: 20vw;
+  margin: 2rem auto 0;
+  letter-spacing: 0.2rem;
+  font-size: 1.5rem;
+  font-weight: bold;  
+  background-color: #b33a00;
+  border: #ff8b53;
+  color: #fff;
+  border-bottom: 2x solid #925232;
+  box-shadow: 2px 3px 5px #8a2d00;
+}
